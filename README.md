@@ -1,0 +1,2 @@
+# oops
+Object oriented programming concepts which assume everything as an object and implement a software using different objects.  Object-oriented programming, or OOP, takes things further by storing both the data structures, and the functions that work on the data, in a single entity known as an object. Rather than passing data around in function calls, you instead load the data you want to work with into an object, and then call the object’s functions to manipulate the object’s data and produce the result you want.
