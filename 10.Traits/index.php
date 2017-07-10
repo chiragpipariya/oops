@@ -2,8 +2,7 @@
 
 /* * ********************************************************************** 
  * Traits
- * @read more :: http://php.net/manual/en/language.oop5.traits.php
- * @video :: https://youtu.be/b0LQU1SKutI?list=PLHFGzOr0F8DLu2_ihXK21Pr4MrpBFwrEC
+ * @read more :: http://php.net/manual/en/language.oop5.traits.php 
  * @description :: 
  * As of PHP 5.4.0, PHP implements a method of code reuse called Traits.
  * Traits are a mechanism for code reuse in single inheritance languages such as PHP. 

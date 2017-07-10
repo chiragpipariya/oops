@@ -2,8 +2,7 @@
 
 /* * ********************************************************************** 
  * Abstract
- * @read more ::  http://php.net/manual/en/language.oop5.abstract.php
- * @video :: https://youtu.be/LpZUlWlp2QI?list=PLHFGzOr0F8DLu2_ihXK21Pr4MrpBFwrEC
+ * @read more ::  http://php.net/manual/en/language.oop5.abstract.php 
  * @description :: 
  * When inheriting from an abstract class, all methods marked abstract in the parent's class declaration must be defined by the child; additionally, 
  * these methods must be defined with the same (or a less restricted) visibility. 

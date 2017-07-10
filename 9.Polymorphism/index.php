@@ -2,8 +2,7 @@
 
 /* * ********************************************************************** 
  * Polymorphism
- * @read more :: https://code.tutsplus.com/tutorials/understanding-and-applying-polymorphism-in-php--net-14362
- * @video :: https://youtu.be/X8M3057Q418?list=PLHFGzOr0F8DLu2_ihXK21Pr4MrpBFwrEC
+ * @read more :: https://code.tutsplus.com/tutorials/understanding-and-applying-polymorphism-in-php--net-14362 
  * @description :: 
  * The beauty of polymorphism is that the code working with the different classes does not need to know which class it is using since they're all used the same way.
  * ********************************************************************** */
