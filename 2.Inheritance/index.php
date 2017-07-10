@@ -13,7 +13,7 @@
 /**
  * @author chirag pipariya <chiragpipariya@gmail.com>
  */
-class common {
+class parent_class {
 
     public $property1;
     public $property2;
@@ -28,7 +28,7 @@ class common {
     {
         $this->property1++;
     }
-    
+
     function method2()
     {
         return $this->property2;
@@ -36,18 +36,15 @@ class common {
 
 }
 
-class child_class extends common {
-
-   
-
+class child_class extends parent_class {
+    
 }
-
 
 $obj = new child_class;
 
 echo "<pre> ";
 echo "<br>===============<br>";
-echo "Here Printed Object child class can access all this main class property and methods";
+echo "Here Printed Object child class can access all this parent_class class property and methods";
 echo "<br>===============<br>";
 
 print_r($obj);

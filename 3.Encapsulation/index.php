@@ -12,7 +12,7 @@
 /**
  * @author chirag pipariya <chiragpipariya@gmail.com>
  */
-class common {
+class parent_class {
 
     private $property1;
     protected $property2;
@@ -35,7 +35,7 @@ class common {
 
 }
 
-class child_class extends common {
+class child_class extends parent_class {
 
     public function method2()
     {
