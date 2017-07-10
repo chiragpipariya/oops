@@ -14,7 +14,7 @@
 /**
  * @author chirag pipariya <chiragpipariya@gmail.com>
  */
-class Base {
+class common {
 
     public $property1;
     public $property2;
@@ -37,7 +37,7 @@ class Base {
 
 }
 
-$obj = new Base;
+$obj = new common;
 
 echo "<pre> ";
 echo "<br>===============<br>";
