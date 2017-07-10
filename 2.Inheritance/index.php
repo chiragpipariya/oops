@@ -13,7 +13,7 @@
 /**
  * @author chirag pipariya <chiragpipariya@gmail.com>
  */
-class main_class {
+class common {
 
     public $property1;
     public $property2;
@@ -36,7 +36,7 @@ class main_class {
 
 }
 
-class child_class extends main_class {
+class child_class extends common {
 
    
 
