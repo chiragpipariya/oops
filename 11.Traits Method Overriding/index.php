@@ -3,7 +3,7 @@
 /* * ********************************************************************** 
  * Traits
  * @read more :: http://php.net/manual/en/language.oop5.traits.php
- * @video :: https://youtu.be/b0LQU1SKutI?list=PLHFGzOr0F8DLu2_ihXK21Pr4MrpBFwrEC
+ * @video :: https://youtu.be/aUQcwKAi6X8?list=PLHFGzOr0F8DLu2_ihXK21Pr4MrpBFwrEC
  * @description :: 
  * As of PHP 5.4.0, PHP implements a method of code reuse called Traits.
  * Traits are a mechanism for code reuse in single inheritance languages such as PHP. 
@@ -15,62 +15,53 @@
 
 /**
  * @author chirag pipariya <chiragpipariya@gmail.com>
- * @note  
+ * @note :: 
+ * Here given priority to following order for overriding :: common -> base -> child 
+ * if child class have same "method1" in base and common then child "method1" call first.
+ * if child class havn't "method1" then base "method1" call.
+ * if child and base class havn't "method1" then common "method1" call. 
  */
         
 
-trait common {
+class common {
  
     
     function method1()
     {
         return "Hello World! From COMMON trait".__FUNCTION__;
-    }
-    function method2()
-    {
-        return "Hello World! From COMMON trait".__FUNCTION__;
-    }
+    } 
 
 }
 
 trait base {
  
     
-    function method3()
+    function method1()
     {
         return "Hello World! From BASE trait".__FUNCTION__;
     }
 
 }
 
-class class1 {
+class child extends common{
 
-   use common;
-
-}
-class class2 {
-
-   use common,base;
+   use base;
 
 } 
 
 
 echo "<pre> ";
 echo "<br>===============<br>";
-echo "Result :: Call class2 -there available all traits methods";
+echo "Result :: Call child class ";
 echo "<br>===============<br>";
 
 /**
  * @author chirag pipariya <chriagpipariya@gmail.com> 
  */ 
-$obj = new class1();
-$obj2 = new class2();
+$obj = new child(); 
 
 print $obj->method1();
-echo "<br>";
-print $obj->method2();
-echo "<br>";
-print $obj2->method3();
+echo "<br>"; 
 echo "<br>"; 
 
 echo "</pre>" . __FILE__ . ' ( Line Number ' . __LINE__ . ')';

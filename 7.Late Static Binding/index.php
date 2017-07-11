@@ -2,7 +2,8 @@
 
 /* * ********************************************************************** 
  * Late Static Binding Member & variable
- * @read more ::  http://php.net/manual/en/language.oop5.late-static-bindings.php 
+ * @read more ::  http://php.net/manual/en/language.oop5.late-static-bindings.php
+ * @video :: https://youtu.be/XPAlstOuPNc?list=PLHFGzOr0F8DLu2_ihXK21Pr4MrpBFwrEC
  * @description :: 
  * This feature was named "late static bindings" with an internal perspective in mind. 
  * "Late binding" comes from the fact that static:: will not be resolved using the class where the method is defined but it will rather be computed using runtime information. 

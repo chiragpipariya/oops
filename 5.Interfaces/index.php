@@ -2,7 +2,8 @@
 
 /* * ********************************************************************** 
  * Interfaces
- * @read more ::  http://php.net/manual/en/language.oop5.interfaces.php 
+ * @read more ::  http://php.net/manual/en/language.oop5.interfaces.php
+ * @video :: https://youtu.be/Me3Zd-8HqRE?list=PLHFGzOr0F8DLu2_ihXK21Pr4MrpBFwrEC
  * @description :: 
  * Object interfaces allow you to create code which specifies which methods a class must implement, without having to define how these methods are handled.
  * Interfaces are defined in the same way as a class, but with the interface keyword replacing the class keyword and without any of the methods having their contents defined. 
